@@ -1,4 +1,6 @@
-!!!Проект запускается командой "docker-compose up" !!!
+!!!Запуск проекта:
+1. git clone https://github.com/Valik324453/interview-task.git
+2. docker-compose up
 
 
 Далее прилагаю ТЗ, в котором, знаком "@" отмечены выполненные пункты задания
