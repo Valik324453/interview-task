@@ -30,8 +30,8 @@
         <tr v-for="url in urls" :key="url.short_code">
           <td>{{ url.long_url }}</td>
           <td>
-            <a :href="`${API_HOST}` + url.short_code" target="_blank">
-              {{ `${API_HOST}` + url.short_code }}
+            <a :href="`http://localhost/` + url.short_code" target="_blank">
+              {{ `http://localhost/` + url.short_code }}
             </a>
           </td>
           <td>{{ url.transition_count }}</td>
